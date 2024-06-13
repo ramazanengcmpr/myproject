@@ -1,0 +1,19 @@
+package udemy;
+
+import java.util.HashMap;
+
+public class Hashmap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+HashMap<Integer,String>hashmap=new HashMap<Integer,String>();
+
+  hashmap.put(9,"queue");
+  hashmap.put(20,"java");
+  hashmap.put(88, "String");
+  System.out.println(hashmap);
+	  
+  }
+	}
+
+

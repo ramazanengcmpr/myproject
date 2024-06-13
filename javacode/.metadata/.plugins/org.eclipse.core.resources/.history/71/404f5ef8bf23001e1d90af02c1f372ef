@@ -1,0 +1,18 @@
+package udemy;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class setmain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   Set<String>s1=new HashSet<String>();
+   Set<String>s2=new HashSet<String>();
+   s1.add("java");
+   s1.add("python");
+   s1.add("php");
+   s1.add("sql");
+	}
+
+}

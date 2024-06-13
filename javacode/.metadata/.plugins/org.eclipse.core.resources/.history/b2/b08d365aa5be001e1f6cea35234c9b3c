@@ -1,0 +1,16 @@
+package javalearn;
+
+public class ders10try {
+
+	
+		
+public static  int toplama(int a,int b) {
+	int sonuc=a+b;
+	return sonuc;
+	
+}
+	
+public static void main(String[] args) {
+
+}
+}

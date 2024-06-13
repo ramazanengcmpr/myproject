@@ -1,0 +1,32 @@
+package javalearn;
+
+public class ders10 {
+
+	
+	
+	public static int toplama(int a ,int b) {
+		int sonuc = a+b;
+		return sonuc;
+	}
+	
+	public static int cikarma(int a,int b) {
+		int sonuc =a-b;
+		return sonuc;
+	}
+	
+	public static int carpma (int a ,int b) {
+		int sonuc =a*b;
+		return sonuc;
+	}
+	
+	public static  int bolme (int a ,int b) {
+		int sonuc =a/b;
+		return sonuc;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ 
+		Scanner scan=new Scanner(System.in)
+	}
+
+}

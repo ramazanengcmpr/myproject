@@ -1,0 +1,66 @@
+package learningjava;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class numbergames {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Scanner scan=new Scanner(System.in);
+Random rd=new Random();
+System.out.println(" lady and centilmn welcome the numbers game"
+		+ "now here are the rules :"
+		+ " If you don't get the right number, you lose."
+		+ "there are 3 difficulty  levels "
+		+ "1: middle level 1-100"
+		+ "2: hard level  1-1000"
+		+ "3:champions level 1-10000"
+		+ "anything is not easy ");
+
+System.out.println("please choose a level");
+int level=scan.nextInt();
+if(level==1) {
+	int guessNumber=rd.nextInt(101);
+ System.out.println("please input a number ");
+ int inputNumber=scan.nextInt();
+ if( inputNumber>guessNumber) {
+	 System.out.println("please choose a larger  number ");
+ }
+ else if (inputNumber<guessNumber) {
+	 System.out.println("please choose a smaller number ");
+ }
+ else {
+	 System.out.println("you won correct number ");
+ }
+}
+if(level==2) {
+	int guessNumber=rd.nextInt(1001);
+System.out.println("please input a number");
+int inputNumber=scan.nextInt();
+if(inputNumber>guessNumber) {
+	System.out.println("please choose a larger number ");
+	
+}else if (inputNumber<guessNumber) {
+	 System.out.println("please choose a smaller number ");
+}
+else {
+	 System.out.println("you won correct number ");
+   }	
+}
+if(level==3) {int guessNumber=rd.nextInt(10001);
+System.out.println("please input a number");
+int inputNumber=scan.nextInt();
+if(inputNumber>guessNumber) {
+	System.out.println("please choose a larger number ");
+	
+}else if (inputNumber<guessNumber) {
+	 System.out.println("please choose a smaller number ");
+}
+else {
+	 System.out.println("you won correct number ");
+                }
+            }
+        }
+	}
+

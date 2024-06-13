@@ -1,0 +1,68 @@
+package constructor;
+import java.util.Scanner;
+public class buttry {
+	
+
+
+
+	    public static void main(String[] args) {
+	        Scanner scanner = new Scanner(System.in);
+
+	        // Matris boyutlarını kullanıcıdan al
+	        System.out.print("Satır sayısını giriniz: ");
+	        int satirSayisi = scanner.nextInt();
+	        System.out.print("Sütun sayısını giriniz: ");
+	        int sutunSayisi = scanner.nextInt();
+
+	        // 2 boyutlu matris oluştur
+	        int[][] matris = new int[satirSayisi][sutunSayisi];
+
+	        // Matrisi doldur
+	        matrisDoldur(matris);
+
+	        // Matrisi ekrana yazdır
+	        System.out.println("Matris:");
+	        matrisYazdir(matris);
+
+	        // Bir satırın toplamını hesapla
+	        System.out.print("Toplamını hesaplamak istediğiniz satırın indeksini giriniz: ");
+	        int secilenSatir = scanner.nextInt();
+	        int toplam = satirToplamHesapla(matris, secilenSatir);
+	        System.out.println(secilenSatir + ". satırın toplamı: " + toplam);
+
+	        scanner.close();
+	    }
+
+	    // Matrisi dolduran metot
+	    public static void matrisDoldur(int[][] matris) {
+	        Scanner scanner = new Scanner(System.in);
+
+	        for (int i = 0; i < matris.length; i++) {
+	            for (int j = 0; j < matris[0].length; j++) {
+	                System.out.print("Matris[" + i + "][" + j + "]: ");
+	                matris[i][j] = scanner.nextInt();
+	            }
+	        }
+	    }
+
+	    // Matrisi ekrana yazdıran metot
+	    public static void matrisYazdir(int[][] matris) {
+	        for (int[] satir : matris) {
+	            for (int eleman : satir) {
+	                System.out.print(eleman + " ");
+	            }
+	            System.out.println();
+	        }
+	    }
+
+	    // Bir satırın toplamını hesaplayan metot
+	    public static int satirToplamHesapla(int[][] matris, int satirIndeks) {
+	        int toplam = 0;
+	        for (int eleman : matris[satirIndeks]) {
+	            toplam += eleman;
+	        }
+	        return toplam;
+	    }
+	}
+
+}

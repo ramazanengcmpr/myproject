@@ -1,0 +1,28 @@
+package javalearn;
+public class ders9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		int star=1;
+		for (int i=0;i<10;i++) {
+			
+			for (int j=0;j<star;j++) {
+				System.out.println("*");
+			}
+			System.out.println("");
+			star++;
+		}
+		int star1=9;
+		for (int i=0;i<10;i++) {
+			for (int j=0;j<star1;j++) {
+				System.out.println("*");
+			}
+			System.out.println("");
+		}
+		
+	}
+
+}

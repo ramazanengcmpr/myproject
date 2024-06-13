@@ -1,0 +1,32 @@
+package constructor;
+
+public class sbcdef {
+	
+	    private String name;
+	    private int age;
+
+	    public sbcdef(String name, int age) {
+	        this.name = name;
+	        this.age = age;
+	    }
+
+	    // toString metodu aşırlıyor
+	    @Override
+	    public String toString() {
+	        return "Person{name='" + name + "', age=" + age + '}';
+	    }
+
+	    public static void main(String[] args) {
+	        // Person sınıfından bir örnek oluşturuyoruz
+	    	sbcdef person = new sbcdef("John Doe", 25);
+
+	        // toString metodu otomatik olarak çağrılır
+	        String personString = person.toString();
+
+	        //veya sadece nesneyi yazdırabiliriz, Java otomatik olarak toString metodunu çağırır
+	        System.out.println(person);
+	    }
+	}
+
+
+}

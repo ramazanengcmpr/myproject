@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="constructor.libraryabs"/>
+    <fullyQualifiedTypeName name="constructor1.mathb.asal"/>
+    <fullyQualifiedTypeName name="constructor1.mathb.asal.alan"/>
+    <fullyQualifiedTypeName name="constructor1.mathb.Factorial"/>
+    <fullyQualifiedTypeName name="udemy.problem.math"/>
+    <fullyQualifiedTypeName name="udemy.problem.physic"/>
+    <fullyQualifiedTypeName name="KtyPackage.KtyMain"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Type"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Stack"/>
+    <fullyQualifiedTypeName name="java.util.PriorityQueue"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
+    <fullyQualifiedTypeName name="java.util.TreeMap"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

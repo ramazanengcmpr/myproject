@@ -1,0 +1,18 @@
+package javalearn;
+
+public class ders13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ String[] name= {"r","a","m"};
+ for(int i=name.length;i>=0;i--) {
+	 System.out.println(name[i]);
+ }
+ System.out.println();
+ String[] surname= {"g","u","l"};
+		 for(int i=surname.length-1;i>=0;i--) {
+			 System.out.println(surname[i]);
+		 }
+	}
+
+}

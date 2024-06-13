@@ -1,0 +1,39 @@
+package javalearn;
+
+import java.util.Scanner;
+
+public class ders10try {
+
+	
+		
+public static  int toplama(int a,int b) {
+	int sonuc=a+b;
+	return sonuc;
+	
+}
+	
+public static int cikarma (int a,int b) {
+	int sonuc=a+b;
+	return sonuc;
+}
+public static int carpma(int a ,int b) {
+	int sonuc=a*b;
+	return sonuc;
+}
+public static int bolme(int a ,int b) {
+	int sonuc=a/b;
+	return sonuc;
+}
+public static void main(String[] args) {
+Scanner scan=new Scanner(System.in);
+System.out.println("ilk sayiyi giriniz ");
+int a =scan.nextInt();
+System.out.println("ikinci sayiyi giriniz");
+int b=scan.nextInt();
+int x=
+toplama(a,b);
+cikarma(a,b);
+carpma(a,b);
+bolme(a,b);
+}
+}
